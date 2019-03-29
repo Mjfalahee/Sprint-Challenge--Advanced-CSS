@@ -272,12 +272,39 @@ footer {
   background-color: white;
   color: #22283A;
 }
-.home .walk-img {
+.home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk-img img {
+.home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk {
+    padding: 15px;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .home .walk .walk-text .btn {
+    width: 100%;
+    background-color: #22283A;
+    color: white;
+    height: 80px;
+  }
+  .home .walk .walk-text .btn:hover {
+    background-color: white;
+    color: #22283A;
+  }
+  .home .walk .walk-img {
+    padding-top: 5px;
+    margin-left: 0;
+    width: 100%;
+    order: -1;
+  }
 }
