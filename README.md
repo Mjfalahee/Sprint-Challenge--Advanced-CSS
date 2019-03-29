@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website is built with a few shortcuts in mind when it comes to layout. They are a faster and cheaper way to get out content to many devices, but they can't accomodate for all devices because they are built for only a handful of viewport breakpoints. Responsive websites have fluid layouts that adapt entirely to the viewing device, but they take much longer to create.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means you build with the mobile users as a primary design. You use media queries aimed at min-width, and then add design and layout as the viewport grows towards desktop. Desktop first is the opposite, using media queries aimed at max-width. The design starts large and gets whittled down into a mobile one. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It changes the size of a rem in terms of the font size to be 1:10px. so 1.6rem = 16px. This is incredibly convenient for scaling text in a big project. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I'd say it feels like using a calculator for the harder math courses in school. We started learning arithmetic and algebra (HTML/CSS) and have hit the point where we are doing so much that we need to skip some of the mindlessness by using a calculator (LESS) to make the job less tedious. Pre-processors don't change the fundamental ideas of HTML and CSS, but they open up new options for looking at our designs and implementing them.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love being able to nest everything. It makes my code make so much more sense to me. 
+I honestly haven't had much trouble with this sprint, because preprocessing is great. But if I had to pick something I'd probably say nesting media queries was a little confusing at first.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

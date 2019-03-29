@@ -1,1 +1,22 @@
 // Mixins Here
+
+.test(@color) {
+    border: 1px solid @color;
+}
+
+.flex(@justify,@align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.custombutton(@width, @backcolor, @textcolor) {
+    width: @width;
+    background-color: @backcolor;
+    color: @textcolor;
+
+    &:hover {
+        background-color: @textcolor;
+        color: @backcolor;
+}
+}
