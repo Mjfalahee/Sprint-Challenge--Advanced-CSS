@@ -241,11 +241,15 @@ footer {
   border-radius: 6px;
   text-align: center;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #22283A;
+}
+.home .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
